@@ -14,6 +14,7 @@ Dokumen ini mencatat seluruh pilihan tampilan yang disetujui pengguna serta toke
 | Posisi aksi utama | Bar menempel di bawah layar (ponsel) dan panel kanan sticky (desktop) |
 | Gambar | Tanpa gambar |
 | Bentuk pilihan layanan | Kartu radio interaktif (FT-01) dan kartu checkbox interaktif (FT-03) |
+| Info jam operasional (FT-07) | Panel ringkas di bagian atas halaman tepat di bawah judul LaundryCalc |
 
 ## Token Visual
 

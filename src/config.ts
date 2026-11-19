@@ -7,8 +7,10 @@ export type AddOnCalculationType = 'flat' | 'per_billed_kg';
 export interface StoreInfo {
   name: string;
   whatsappNumber: string;
+  operatingDays: string;
   openingHours: string;
   pickupHours: string;
+  closedDaysNote: string;
   pickupRadiusMaxKm: number;
   minimumChargeKg: number;
   minWeightInputKg: number;
@@ -43,8 +45,10 @@ export interface AppDefaults {
 export const STORE_INFO: StoreInfo = {
   name: 'Laundry UMKM',
   whatsappNumber: '6281234567890',
-  openingHours: '08.00-20.00 WIB',
-  pickupHours: '09.00-17.00 WIB',
+  operatingDays: 'Senin–Jumat',
+  openingHours: '08.00–20.00 WIB',
+  pickupHours: '09.00–17.00 WIB',
+  closedDaysNote: 'Sabtu dan Minggu tutup',
   pickupRadiusMaxKm: 5,
   minimumChargeKg: 3,
   minWeightInputKg: 0.1,
